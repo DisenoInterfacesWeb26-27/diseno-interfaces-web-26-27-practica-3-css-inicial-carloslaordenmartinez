@@ -6,3 +6,63 @@
 html {
     font-size: 1em;
 }
+body {
+    background-color: #F4FBFA;
+    color: #1F2933;
+}
+nav {
+    background-color: #0F5C73;
+    color: #F4FBFA;
+}
+nav a {
+    color: #F4FBFA;
+}
+footer {
+    background-color: #0F5C73;
+    color: #F4FBFA;
+}
+footer a {
+    color: #F4FBFA;
+}
+h1 {
+   color: #0F5C73;
+}
+h2 {
+    color: #0F5C73;
+}
+h3{
+    color: #0F5C73;
+}
+aside {
+    background-color: #72E6DD;
+    color: #1F2933;
+}
+a {
+    color: #0F5C73;
+    text-decoration: none;
+}
+fieldset {
+    background-color: #72E6DD;
+}
+legend {
+    color: #0F5C73;
+}
+input {
+    background-color: #F4FBFA;
+    color: #1F2933;
+}
+textarea {
+    background-color: #F4FBFA;
+    color: #1F2933;
+}
+input[type="submit"] {
+    background-color: #0F5C73;
+    color: #F4FBFA;
+}
+caption {
+    color: #0F5C73;
+}
+th {
+    background-color: #0F5C73;
+    color: #F4FBFA;
+}
