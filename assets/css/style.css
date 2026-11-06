@@ -16,16 +16,22 @@ nav {
 }
 nav a {
     color: #F4FBFA;
+    text-transform: uppercase;
 }
 footer {
     background-color: #0F5C73;
     color: #F4FBFA;
+    text-align: center;
 }
 footer a {
     color: #F4FBFA;
 }
+footer img {
+    vertical-align: middle;
+}
 h1 {
    color: #0F5C73;
+   text-transform: uppercase;  
 }
 h2 {
     color: #0F5C73;
@@ -46,18 +52,22 @@ fieldset {
 }
 legend {
     color: #0F5C73;
+    text-transform: uppercase;
 }
 input {
     background-color: #F4FBFA;
     color: #1F2933;
+    text-indent: 0.5em;
 }
 textarea {
     background-color: #F4FBFA;
     color: #1F2933;
+    text-indent: 0.5em;
 }
 input[type="submit"] {
     background-color: #0F5C73;
     color: #F4FBFA;
+    text-transform: uppercase;
 }
 caption {
     color: #0F5C73;
@@ -65,4 +75,17 @@ caption {
 th {
     background-color: #0F5C73;
     color: #F4FBFA;
+    vertical-align: middle;
+}
+td {
+    vertical-align: middle;
+}
+p {
+    line-height: 1.5;
+}
+article p {
+    text-indent: 1.5em;
+}
+label {
+    text-transform: uppercase;
 }
