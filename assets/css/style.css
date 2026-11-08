@@ -110,9 +110,7 @@ caption {
     padding: 0.5em;
 
 }
-th {
-    background-color: #0F5C73;
-    color: #F4FBFA;
+th { 
     vertical-align: middle;
     border: 1px solid #0F5C73;
     padding: 0.75em;
@@ -170,4 +168,53 @@ padding: 0.6em;
 display: block;
 width: 2.5em;
 height: 2.5em;
+}
+thead tr:first-child {
+background-color: #0F5C73;
+color: #F4FBFA;
+}
+tbody tr:nth-child(odd) {
+background-color: #F4FBFA;
+}
+tbody tr:nth-child(even) {
+background-color: #72E6DD;
+}
+nav a:link, nav a:visited {
+color: #F4FBFA;
+}
+nav a:hover {
+background-color: #72E6DD;
+color: #1F2933;
+}
+nav a:active {
+background-color: #FF8A65;
+border-color: #FF8A65;
+color: #1F2933;
+}
+footer a:link, footer a:visited {
+color: #F4FBFA;
+}
+footer a:hover {
+color: #72E6DD;
+text-decoration: underline;
+}
+footer a:active {
+color: #FF8A65;
+}
+aside a:link, article a:link {
+color: #0F5C73;
+}
+aside a:visited, article a:visited {
+color: #1F2933;
+}
+aside a:hover, article a:hover {
+background-color: #0F5C73;
+color: #F4FBFA;
+}
+aside a:active, article a:active {
+background-color: #FF8A65;
+color: #1F2933;
+}
+article a {
+text-decoration: underline;
 }
